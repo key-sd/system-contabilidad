@@ -37,17 +37,17 @@ function getNavClass($name, $active_menu) {
                 <span class="text-xs font-semibold uppercase tracking-wider text-slate-400">Registro</span>
             </div>
             <nav class="space-y-1">
-                <a href="#" 
+                <a href="catalogo.php" 
                    class="flex items-center gap-3 px-3.5 py-2 rounded-xl text-sm <?php echo getNavClass('catalogo', $active_menu); ?>">
                     <i class="bi bi-journal-bookmark text-base"></i>
                     <span>Catálogo de cuentas</span>
                 </a>
-                <a href="#" 
+                <a href="libro_diario.php" 
                    class="flex items-center gap-3 px-3.5 py-2 rounded-xl text-sm <?php echo getNavClass('libro_diario', $active_menu); ?>">
                     <i class="bi bi-journal-text text-base"></i>
                     <span>Libro diario</span>
                 </a>
-                <a href="#" 
+                <a href="libro_mayor.php" 
                    class="flex items-center gap-3 px-3.5 py-2 rounded-xl text-sm <?php echo getNavClass('libro_mayor', $active_menu); ?>">
                     <i class="bi bi-journals text-base"></i>
                     <span>Libro mayor</span>
@@ -59,17 +59,17 @@ function getNavClass($name, $active_menu) {
                 <span class="text-xs font-semibold uppercase tracking-wider text-slate-400">IVA</span>
             </div>
             <nav class="space-y-1">
-                <a href="#" 
+                <a href="libro_compras.php" 
                    class="flex items-center gap-3 px-3.5 py-2 rounded-xl text-sm <?php echo getNavClass('libro_compras', $active_menu); ?>">
                     <i class="bi bi-cart-check text-base"></i>
                     <span>Libro de compras</span>
                 </a>
-                <a href="#" 
+                <a href="ventas_constribuyentes.php" 
                    class="flex items-center gap-3 px-3.5 py-2 rounded-xl text-sm <?php echo getNavClass('ventas_contribuyentes', $active_menu); ?>">
                     <i class="bi bi-receipt-cutoff text-base"></i>
                     <span>Ventas a contribuyentes</span>
                 </a>
-                <a href="#" 
+                <a href="ventas_consumidor.php" 
                    class="flex items-center gap-3 px-3.5 py-2 rounded-xl text-sm <?php echo getNavClass('ventas_consumidor', $active_menu); ?>">
                     <i class="bi bi-receipt text-base"></i>
                     <span>Ventas a consumidor final</span>
@@ -81,12 +81,12 @@ function getNavClass($name, $active_menu) {
                 <span class="text-xs font-semibold uppercase tracking-wider text-slate-400">Reportes</span>
             </div>
             <nav class="space-y-1">
-                <a href="#" 
+                <a href="balance_general.php" 
                    class="flex items-center gap-3 px-3.5 py-2 rounded-xl text-sm <?php echo getNavClass('balance_general', $active_menu); ?>">
                     <i class="bi bi-file-earmark-bar-graph text-base"></i>
                     <span>Balance general</span>
                 </a>
-                <a href="#" 
+                <a href="estado_resultado.php" 
                    class="flex items-center gap-3 px-3.5 py-2 rounded-xl text-sm <?php echo getNavClass('estado_resultados', $active_menu); ?>">
                     <i class="bi bi-graph-up-arrow text-base"></i>
                     <span>Estado de resultados</span>
